@@ -187,8 +187,6 @@ public final class Reflections {
                 return rawPrimitiveMapping(primType, (char) initVal);
             } else if (initPrim == float.class) {
                 return rawPrimitiveMapping(primType, (float) initVal);
-            } else if (initPrim == long.class) {
-                return rawPrimitiveMapping(primType, (long) initVal);
             } else if (initPrim == double.class) {
                 return rawPrimitiveMapping(primType, (double) initVal);
             } else if (initPrim == int.class) {
